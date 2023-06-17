@@ -14,27 +14,29 @@ Before getting started, make sure you have the following installed on your machi
 
 ## Getting Started
 
-To get started with the project, follow these steps:
+To run the application locally, follow the steps below:
 
-1. Clone the repository:
-git clone <repository-url>
+1. Clone the repository to your local machine:
 
-2. Navigate to the project folder:
+   ```
+   git clone https://github.com/RehamCodes/RESTful-API-s.git
+   ```
 
-cd <project-folder>
+2. Navigate to the project's directory:
 
+   ```
+   cd RESTful-API-s
+   ```
 
-3. Install the dependencies:
+3. Install the dependencies using npm:
 
-npm install
+   ```
+   npm install
+   ```
 
 
 This will install all the required dependencies specified in the `package.json` file.
 
-4. Configure the MongoDB connection:
-
-- Open the `config.js` file in the project's root directory.
-- Modify the `dbURL` value with your MongoDB connection URL.
 
 5. Start the server:
 
