@@ -1,6 +1,6 @@
 # RESTful API using Node.js, Express, and MongoDB
 
-This is a RESTful API project built with Node.js, Express, and MongoDB. It provides endpoints to manage a database using CRUD operations.
+This is a RESTful API project built with Node.js, Express, and MongoDB.It utilizes nodemon for automatic server restarts during development and Babel for compiling the code for better compatibility. It also provides endpoints to manage a database using CRUD operations.
 
 ## Prerequisites
 
