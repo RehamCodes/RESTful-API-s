@@ -45,19 +45,19 @@ The server will start running on http://localhost:3000.
 
 ## API Endpoints
 
-- `GET /api/contacts`: Get all contacts.
-- `GET /api/contacts/:contactId`: Get a contact by ID.
-- `POST /api/contacts`: Create a new contact.
-- `PUT /api/contacts/:contactId`: Update a contact by ID.
-- `DELETE /api/contacts/:contactId`: Delete a contact by ID.
+- `GET /contact`: Get all contacts.
+- `GET /contact/:contactId`: Get a contact by ID.
+- `POST /contact`: Create a new contact.
+- `PUT /contact/:contactId`: Update a contact by ID.
+- `DELETE /contact/:contactId`: Delete a contact by ID.
 
 ## Testing the API
 
-You can use Postman to test the API endpoints. Here's an example of how to test the `GET /api/contacts` endpoint:
+You can use Postman to test the API endpoints. Here's an example of how to test the `GET /contact` endpoint:
 
 1. Open Postman.
 2. Set the request method to GET.
-3. Set the request URL to `http://localhost:3000/api/contacts`.
+3. Set the request URL to `http://localhost:3000/contact`.
 4. Click the Send button.
 5. You will receive a response with the list of contacts.
 
